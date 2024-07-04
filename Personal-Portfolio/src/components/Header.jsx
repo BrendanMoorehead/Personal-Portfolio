@@ -7,9 +7,9 @@ function Header() {
 "
     >
       <div className="flex gap-4">
-        <HeaderButton text="Experience" />
-        <HeaderButton text="Projects" />
-        <HeaderButton text="Education" />
+        <HeaderButton text="Experience" link="experience" />
+        <HeaderButton text="Projects" link="projects" />
+        <HeaderButton text="Education" link="education" />
       </div>
       <div className="header__name">BRENDAN</div>
       <div className="flex gap-4">
