@@ -28,3 +28,31 @@ h3 {
   color: white;
   font-size: 30px;
 }
+
+/* CARD TEST */
+.expanded-card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+}
+.expanded-card-h {
+  font-size: 27px;
+  color: var(--fg);
+  width: 300px;
+  padding: 5px;
+  place-self: end center;
+}
+.expanded-card p {
+  width: 300px;
+  padding: 5px;
+  place-self: start center;
+}
+
+.blue {
+  color: #5a6478;
+}
