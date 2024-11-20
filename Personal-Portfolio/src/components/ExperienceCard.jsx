@@ -52,7 +52,7 @@ const ExperienceCard = ({ data }) => {
       <div className="absolute bottom-0 left-0 w-full px-6 py-5">
         <button
           onClick={() => setExpanded(!expanded)}
-          className="w-full py-2 rounded-3xl bg-[#2b3752] text-white flex items-center justify-center"
+          className="w-full py-2 rounded-xl gradient text-white flex items-center justify-center"
         >
           {!expanded ? (
             <IoIosArrowDown style={{ fontSize: '1.5rem' }} />

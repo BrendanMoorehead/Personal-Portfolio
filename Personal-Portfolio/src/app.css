@@ -34,6 +34,26 @@
   font-size: 20px;
   color: white;
 }
+.form-label {
+  font-family: 'DM Serif Text', serif;
+  font-size: 18px;
+  color: white;
+}
+.form-input {
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+  padding: 12px; /* Remove default padding */
+  transition: border 0.3s ease; /* Smooth transition */
+  color: white;
+  font-family: 'Cormorant', serif;
+}
+.form-textarea {
+  box-sizing: border-box;
+  width: 500px;
+  height: 160px;
+  outline: none;
+  resize: none;
+}
 
 p {
   font-family: 'Cormorant', serif;
@@ -49,6 +69,14 @@ h3 {
 
 .blue {
   color: #5a6478;
+}
+.gradient {
+  background: rgb(4, 121, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 121, 182, 1) 0%,
+    rgba(132, 0, 255, 1) 100%
+  );
 }
 .lora {
   font-family: 'Lora', serif;
@@ -78,4 +106,10 @@ h3 {
   font-family: 'DM Serif Text', serif;
   font-size: 16px;
   padding-bottom: 10px;
+}
+.contact-form {
+}
+.button {
+  font-family: 'DM Serif Text', serif;
+  font-size: 20px;
 }

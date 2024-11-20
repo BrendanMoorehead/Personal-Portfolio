@@ -12,7 +12,7 @@ function Header() {
     >
       <div className="flex gap-4">
         <HeaderButton text="Experience" link="experience" />
-        <HeaderButton text="Projects" link="projects" />
+        {/* <HeaderButton text="Projects" link="projects" /> */}
         <HeaderButton text="Education" link="education" />
       </div>
       <div className="header__name select-none">
@@ -29,7 +29,7 @@ function Header() {
           text="LinkedIn"
           link="https://www.linkedin.com/in/brendan-moorehead-319657223/"
         />
-        <HeaderButton text="Contact" />
+        <HeaderButton text="Contact" link="contact" />
       </div>
     </div>
   );

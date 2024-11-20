@@ -7,6 +7,7 @@ import ProjectsSection from './components/ProjectsSection';
 import EducationSection from './components/EducationSection';
 import AnimatedCursor from 'react-animated-cursor';
 import Section from './components/Section';
+import ContactSection from './components/ContactSection';
 
 function App() {
   return (
@@ -23,11 +24,14 @@ function App() {
       <Section>
         <ExperienceSection />
       </Section>
-      <Section>
+      {/* <Section>
         <ProjectsSection />
-      </Section>
+      </Section> */}
       <Section>
         <EducationSection />
+      </Section>
+      <Section>
+        <ContactSection />
       </Section>
     </div>
   );
