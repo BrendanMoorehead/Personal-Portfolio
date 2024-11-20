@@ -1,23 +1,21 @@
 import React from 'react';
-
+import Chip from './Chip';
 const JobCard = ({ jobData }) => {
   return (
-    <div className="flex-1 my-36 rounded-3xl bg-neutral-700 min-h-96 p-12">
+    <div className="flex-1 rounded-3xl bg-neutral-800 min-h-96 p-12 hover:drop-shadow-lg duration-300 ease-in-out">
       <h3>{jobData.employer}</h3>
-      <h4>{jobData.jobTitle}</h4>
+      <h4 className="job__title pb-2">{jobData.jobTitle}</h4>
       <div className="flex">
-        <div className="flex flex-col border-1.5 justify-center rounded-3xl">
+        <div className="flex gap-3 py-3 flex-col">
           {jobData.terms.map((term) => (
-            <div
-              key={term.index}
-              className="hover:bg-neutral-600 transition-colors duration-300 ease-in-out p-3 rounded-3xl"
-            >
-              <p className="text-white">{term.season}</p>
-              <p className="blue">{term.year}</p>
-            </div>
+            <Chip key={term} text={term} />
           ))}
         </div>
-        <div>details</div>
+        <div className="flex-1 pt-3 px-8">
+          {jobData.details.map((detail) => (
+            <p className="detail pb-4">- {detail}</p>
+          ))}
+        </div>
       </div>
     </div>
   );

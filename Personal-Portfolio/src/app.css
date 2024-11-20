@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Text:ital@0;1&family=Noto+Sans+JP:wght@100..900&display=swap');
 
-/* html {
-  scroll-behavior: smooth;
-} */
 .header__name {
-  font-family: 'Quattrocento', serif;
+  font-family: 'DM Serif Text', serif;
   font-weight: 400;
   color: white;
   font-style: normal;
@@ -12,47 +10,66 @@
   transform: scaleY(1.2);
 }
 .primary__name {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
+  font-family: 'DM Serif Text', serif;
+  font-weight: 400;
   color: white;
-  font-size: 98px;
+  font-size: 120px;
+}
+.primary__title {
+  font-family: 'Cormorant', serif;
+  font-size: 48px;
+  color: #e3e3e3;
+  font-weight: 400;
+}
+
+.section__header {
+  font-family: 'DM Serif Text', serif;
+  font-weight: 400;
+  color: #e3e3e3;
+  font-size: 46px;
+}
+.job__title {
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
 }
 
 p {
-  font-family: 'Lora', serif;
+  font-family: 'Cormorant', serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
+  color: white;
 }
 h3 {
-  font-family: 'Lora', serif;
+  font-family: 'DM Serif Text', serif;
   color: white;
-  font-size: 30px;
-}
-
-/* CARD TEST */
-.expanded-card {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-  display: grid;
-  place-items: center;
-}
-.expanded-card-h {
-  font-size: 27px;
-  color: var(--fg);
-  width: 300px;
-  padding: 5px;
-  place-self: end center;
-}
-.expanded-card p {
-  width: 300px;
-  padding: 5px;
-  place-self: start center;
+  font-size: 36px;
 }
 
 .blue {
   color: #5a6478;
+}
+.lora {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+}
+.detail {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+.project-desc {
+  font-size: 16px;
+}
+
+/* EMPLOYER CARD */
+.employer-title {
+  font-family: 'DM Serif Text', serif;
+  font-size: 24px;
+}
+.job-title {
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: 24px;
 }

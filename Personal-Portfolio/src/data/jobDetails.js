@@ -4,11 +4,11 @@ export const jobData = [
     jobTitle: 'Software Developer Co-op',
     employer: 'Bastian Solutions',
     technologies: ['C#', 'Blazor', 'Agile', 'Docker', 'Git'],
-    terms: [
-      { index: 0, season: 'Fall', year: '2022' },
-      { index: 1, season: 'Summer', year: '2023' },
-      { index: 2, season: 'Winter', year: '2024' },
-      { index: 3, season: 'Summer', year: '2024' },
+    terms: ['summer 2024', 'winter 2024', 'summer 2023', 'fall 2022'],
+    details: [
+      'Designed and wrote a physics engine for an AGV (Automated Guided Vehicle).',
+      'Led the UX design and implemented new features for an application to build out 3D warehouse racking models.',
+      'Worked with multiple teams to create user emulation workflows that interfaced with WMS (Warehouse Management Software).',
     ],
   },
   {
@@ -16,6 +16,10 @@ export const jobData = [
     jobTitle: 'Software Developer Co-op',
     employer: 'Perpetual Motion Sports',
     technologies: ['PHP', 'JavaScript', 'HTML + CSS', 'Git'],
-    terms: [{ index: 0, season: 'Summer', year: '2022' }],
+    terms: ['summer 2022'],
+    details: [
+      'Developed dynamic web pages with PHP, JavaScript, and HTML/CSS.',
+      'Proposed and implemented new features ranging from QoL changes to integral dashboard functionality.',
+    ],
   },
 ];
