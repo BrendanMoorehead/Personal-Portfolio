@@ -12,7 +12,7 @@ function Header() {
     >
       <div className="flex gap-4">
         <HeaderButton text="Experience" link="experience" />
-        {/* <HeaderButton text="Projects" link="projects" /> */}
+        <HeaderButton text="Projects" link="projects" />
         <HeaderButton text="Education" link="education" />
       </div>
       <div className="header__name select-none">

@@ -53,6 +53,7 @@
   height: 160px;
   outline: none;
   resize: none;
+  overflow: hidden;
 }
 
 p {

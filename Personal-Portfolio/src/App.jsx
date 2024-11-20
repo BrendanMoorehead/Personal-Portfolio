@@ -24,9 +24,9 @@ function App() {
       <Section>
         <ExperienceSection />
       </Section>
-      {/* <Section>
+      <Section>
         <ProjectsSection />
-      </Section> */}
+      </Section>
       <Section>
         <EducationSection />
       </Section>

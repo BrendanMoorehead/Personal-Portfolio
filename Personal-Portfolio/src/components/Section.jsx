@@ -10,7 +10,7 @@ function Section({ children }) {
       <span
         style={{
           opacity: isInView ? 1 : 0,
-          transition: 'all 0.8s ease-in 0.5s',
+          transition: 'all 0.5s ease-in 0.5s',
         }}
       >
         {children}
