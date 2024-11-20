@@ -9,10 +9,10 @@ const ContactForm = () => {
     setIsSubmitting(true);
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        process.env.REACT_APP_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -69,7 +69,7 @@ const ContactForm = () => {
         className="w-full py-2 rounded-xl gradient text-white flex items-center justify-center button"
       />
 
-      {stateMessage && <p>{stateMessage}</p>}
+      {stateMessage && <p className="text-center">{stateMessage}</p>}
     </form>
   );
 };
