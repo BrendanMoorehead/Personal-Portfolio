@@ -12,11 +12,11 @@ import ContactSection from './components/ContactSection';
 function App() {
   return (
     <div className="bg-neutral-900">
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="194, 194, 194"
         trailingSpeed={8}
         outerStyle={{ border: '2px solid white' }}
-      />
+      /> */}
       <Header />
       <Section>
         <PrimarySection />
