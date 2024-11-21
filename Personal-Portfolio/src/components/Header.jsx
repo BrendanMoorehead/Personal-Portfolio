@@ -7,10 +7,10 @@ function Header() {
   };
   return (
     <div
-      className="flex flex-row px-56 py-6 place-content-between h-full w-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-mxl bg-opacity-30 border-gray-100 sticky top-0 z-40
+      className="flex flex-row md:px-14 lg:px56 py-6 sm:align-center place-content-between h-full w-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-mxl bg-opacity-30 border-gray-100 sticky top-0 z-40
 "
     >
-      <div className="flex gap-4">
+      <div className="hidden md:flex gap-4">
         <HeaderButton text="Experience" link="experience" />
         <HeaderButton text="Projects" link="projects" />
         <HeaderButton text="Education" link="education" />
@@ -20,7 +20,7 @@ function Header() {
           B. MOOREHEAD
         </Link>
       </div>
-      <div className="flex gap-4">
+      <div className="hidden md:flex gap-4">
         <HeaderExternalLink
           text="Github"
           link="https://github.com/BrendanMoorehead"

@@ -18,7 +18,7 @@ const ExperienceCard = ({ data }) => {
   return (
     <motion.div
       className="relative max-w-2xl mx-auto flex flex-col bg-neutral-800 p-6 rounded-3xl overflow-hidden"
-      animate={{ height: expanded ? contentHeight + 220 : '220px' }} // Adjust height based on content and padding
+      animate={{ height: expanded ? contentHeight + 240 : '220px' }} // Adjust height based on content and padding
       transition={{
         duration: 0.5,
         ease: 'easeInOut',
@@ -32,7 +32,7 @@ const ExperienceCard = ({ data }) => {
           <TermChip key={term} term={term} />
         ))}
       </div>
-      <div ref={contentRef} className="overflow-hidden">
+      <div ref={contentRef} className="overflow-hidden pt-4">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: expanded ? 1 : 0 }}

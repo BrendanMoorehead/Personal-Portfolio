@@ -6,18 +6,18 @@
   font-weight: 400;
   color: white;
   font-style: normal;
-  font-size: 24px;
+  lfont-size: 24px;
   transform: scaleY(1.2);
 }
 .primary__name {
   font-family: 'DM Serif Text', serif;
   font-weight: 400;
   color: white;
-  font-size: 120px;
+  font-size: 70px;
 }
 .primary__title {
   font-family: 'Cormorant', serif;
-  font-size: 48px;
+  font-size: 40px;
   color: #e3e3e3;
   font-weight: 400;
 }
@@ -59,7 +59,7 @@
 p {
   font-family: 'Cormorant', serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 h3 {
@@ -87,9 +87,6 @@ h3 {
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
   font-size: 14px;
-}
-.project-desc {
-  font-size: 16px;
 }
 
 /* EMPLOYER CARD */
